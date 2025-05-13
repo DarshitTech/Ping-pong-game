@@ -58,7 +58,7 @@ Play against a basic AI or add a second player using arrow keys.
 -----------------------------------
 Darshit
 
-GitHub: https://github.com/DarshitTech
+GitHub: https://github.com/DarshitTech <br>
 LinkedIn: https://www.linkedin.com/in/darshitsodhatra
 
 -----------------------------------
