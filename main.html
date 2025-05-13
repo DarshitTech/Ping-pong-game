@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ping Pong Game</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <main>
+    <section id="scoreboard" aria-label="Scoreboard">
+      <span>Player A: <span id="scoreA">0</span></span>
+      <span> | </span>
+      <span>Player B: <span id="scoreB">0</span></span>
+    </section>
+
+    <section id="ping-pong-table" aria-label="Ping Pong Table">
+      <div id="ball" role="presentation"></div>
+      <div id="paddle-left" class="paddle" role="presentation"></div>
+      <div id="paddle-right" class="paddle" role="presentation"></div>
+    </section>
+
+    <section id="controls" aria-label="Game Controls">
+      <button onclick="setMode('human')" id="btn-human" aria-label="Switch to Human Mode">Human Mode</button>
+      <button onclick="setMode('ai')" id="btn-ai" aria-label="Switch to AI Mode">AI Mode</button>
+    </section>
+  </main>
+
+  <audio id="hitSound" src="https://www.soundjay.com/button/sounds/button-16.mp3" preload="auto"></audio>
+
+  <!-- Socket.io library -->
+  <script src="https://cdn.socket.io/4.5.4/socket.io.min.js" defer></script>
+
+  <!-- Main game script -->
+  <script src="script.js" defer></script>
+</body>
+</html>

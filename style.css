@@ -1,0 +1,95 @@
+/* ===== Global Styles ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #111;
+  font-family: Arial, sans-serif;
+  color: #fff;
+  text-align: center;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ===== Scoreboard ===== */
+#scoreboard {
+  font-size: 1.5rem;
+  padding: 10px;
+  background-color: #1a1a1a;
+  border-bottom: 2px solid #333;
+}
+
+/* ===== Game Table ===== */
+#ping-pong-table {
+  position: relative;
+  width: 700px;
+  height: 400px;
+  background: #222;
+  border: 5px solid #fff;
+  margin: 20px auto;
+  overflow: hidden;
+  transition: border-color 0.3s ease;
+  border-radius: 8px;
+}
+
+/* ===== Paddles ===== */
+.paddle {
+  position: absolute;
+  width: 10px;
+  height: 80px;
+  background: #fff;
+  border-radius: 4px;
+}
+
+#paddle-left {
+  left: 0;
+}
+
+#paddle-right {
+  right: 0;
+}
+
+/* ===== Ball ===== */
+#ball {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background: red;
+  border-radius: 50%;
+  box-shadow: 0 0 10px red;
+}
+
+/* ===== Controls ===== */
+#controls {
+  margin-top: 20px;
+}
+
+/* ===== Buttons ===== */
+button {
+  padding: 10px 20px;
+  margin: 5px;
+  font-size: 1rem;
+  background: #444;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+button:hover,
+button:focus {
+  background: #666;
+  outline: none;
+  transform: scale(1.05);
+}
+
+/* Active mode button */
+.active-mode {
+  background-color: #0f0 !important;
+  color: #000;
+  font-weight: bold;
+}
