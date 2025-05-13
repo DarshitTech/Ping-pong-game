@@ -1,49 +1,68 @@
-Ping Pong Game – JavaScript AI vs Human | Classic Pong Game Project
-===================================================================
+PING PONG GAME
+=====================
 
-🎮 Overview:
-------------
-This is an interactive Ping Pong Game built with HTML, CSS, and JavaScript. It features two gameplay modes:
-- Human Mode – Control the paddle using your keyboard.
-- AI Mode – Let an AI algorithm play against you or itself.
+A simple and fun Ping Pong (Pong) game built with HTML, CSS, and JavaScript.
+Play against a basic AI or add a second player using arrow keys.
 
-Perfect for beginners learning game development and AI in JavaScript.
+-----------------------------------
+🎮 FEATURES
+-----------------------------------
+- Single-player mode vs AI
+- Two-player option (W/S and ↑/↓ keys)
+- Real-time ball and paddle movement
+- Score tracking system
+- Classic pong-style layout and controls
 
-🚀 Key Features:
-----------------
-- Classic Pong-style gameplay.
-- AI-powered paddle movement using basic prediction logic.
-- Real-time score display for Player A and Player B.
-- Intuitive interface with "Human Mode" and "AI Mode" toggle buttons.
-- Responsive design that runs smoothly in modern web browsers.
+-----------------------------------
+🕹️ CONTROLS
+-----------------------------------
+- Player 1 (Left Paddle): 
+    - Move Up: W
+    - Move Down: S
 
-🛠️ Technologies Used:
-----------------------
-- HTML5 Canvas
+- Player 2 / Right Paddle: 
+    - Move Up: ↑ (Up Arrow)
+    - Move Down: ↓ (Down Arrow)
+
+(Note: AI can be replaced by Player 2 manually if needed)
+
+-----------------------------------
+🚀 HOW TO RUN
+-----------------------------------
+1. Clone the repository:
+   git clone https://github.com/DarshitTech/Ping-pong-game
+
+2. Navigate to the project directory:
+   cd Ping-pong-game
+
+3. Open the game:
+   Open the 'index.html' file in any modern web browser (Chrome, Firefox, etc.)
+
+-----------------------------------
+📦 TECHNOLOGIES USED
+-----------------------------------
+- HTML5
 - CSS3
-- Vanilla JavaScript (no frameworks)
+- JavaScript (Vanilla)
 
-📂 How to Run:
---------------
-1. Clone or download this repository.
-2. Open `index.html` in any modern web browser.
-3. Click "Human Mode" to play manually or "AI Mode" to watch the AI play.
+-----------------------------------
+📌 FUTURE IMPROVEMENTS
+-----------------------------------
+- [ ] Toggle between AI and 2-player mode
+- [ ] Sound effects and background music
+- [ ] Difficulty settings
+- [ ] Mobile support
 
-🧠 Ideal For:
--------------
-- JavaScript beginners
-- Game development practice
-- AI logic implementation in simple games
-- Web development mini-projects or portfolio
+-----------------------------------
+🧑‍💻 AUTHOR
+-----------------------------------
+Darshit
 
-📝 Project Structure:
----------------------
-- `index.html` – Game layout
-- `style.css` – Styling for the game screen
-- `script.js` – Game logic including ball movement, collision, AI, etc.
+GitHub: https://github.com/DarshitTech
+LinkedIn: https://www.linkedin.com/in/darshitsodhatra
 
-
-📄 License:
------------
-This project is licensed under the MIT License – feel free to use and modify it.
+-----------------------------------
+📄 LICENSE
+-----------------------------------
+This project is licensed under the MIT License.
 
